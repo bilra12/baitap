@@ -2,4 +2,4 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.2.2.jar \
   -file mapper_b.py -mapper mapper_b.py \
   -file reducer.py -reducer reducer.py \
   -input /user/hdoop/data/baitaplon/logs/Apache_2k.log.txt \
-  -output /user/hadoop/data/baitaplon/logs/output_b
+  -output /user/hdoop/data/baitaplon/logs/output_b
