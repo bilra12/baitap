@@ -1,0 +1,5 @@
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.2.2.jar \
+  -file mapper_b.py -mapper mapper_b.py \
+  -file reducer.py -reducer reducer.py \
+  -input /user/hadoop/data/lab2/input \
+  -output /user/hadoop/data/lab2/output_b
